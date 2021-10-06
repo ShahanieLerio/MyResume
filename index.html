@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <title>myResume</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="css/style.css">
+
+     <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("dl").toggle();
+          });
+        }); 
+    </script>
+    
+</head>
+
+<body>
+
+    <div id="page-wrap">
+    
+        <img src="images/shan.png" alt="Photo of Cthulu" id="pic" height="170" weight="180" style="margin-top: 55px;"/>
+    
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Shahanie Mae Lerio</h1>
+        
+            <p>
+                Cell: <span class="tel">+639468882951</span><br/>
+                Email: <a class="email" href="shahaniemaelerio1@gmail.com">shahaniemaelerio1@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                I'm a goal-oriented, motivated, and passionate individual. My other hobby is dancing. For the past three years, I've been a passionate dancer in Ormoc. 
+                I'm looking for a job that matches my professional abilities and attitude.
+            </p>
+        </div><br><br>
+        
+        <div class="clear"></div>
+        <button>
+            <strong>
+                Hide/Show Information
+            </strong>
+        </button>
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>Primary School</h2>
+                <p><strong>School Name:</strong> Cogon Central Elementary School<br>
+                    <strong>Year:</strong> 2011 - 2012
+                </p><br>
+                <h2>Secondary School</h2>
+                <p><strong>School Name:</strong> New Ormoc City National High School<br>
+                    <strong>Year:</strong> 2017 - 2018 
+                </p><br>
+                <h2>Tertiary School</h2>
+                <p><strong>School Name:</strong> Eastern Visayas State University - Ormoc City Campus<br>
+                    <strong>Year:</strong> Ongoing
+                </p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+                
+                <h2>Computer skills</h2>
+                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd>Dancing, Singing, Reading.</dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
